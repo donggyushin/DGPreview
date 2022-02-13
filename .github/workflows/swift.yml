@@ -13,5 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build and tests ( iOS 15.0)
-      run: xcodebuild test -scheme DGPreview -destination 'platform=iOS Simulator,OS=15.0,name=iPhone 12 Pro' CODE_SIGNING_ALLOWED=NO IPHONEOS_DEPLOYMENT_TARGET=15.0
+    - name: Build and tests ( iOS 15.2)
+      run: xcodebuild test -scheme DGPreview -destination 'platform=iOS Simulator,OS=15.2,name=iPhone 13 Pro' CODE_SIGNING_ALLOWED=NO IPHONEOS_DEPLOYMENT_TARGET=15.2
