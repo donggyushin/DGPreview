@@ -1,11 +1,4 @@
 import XCTest
 @testable import DGPreview
 
-final class DGPreviewTests: XCTestCase {
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(DGPreview().text, "Hello, World!")
-    }
-}
+final class DGPreviewTests: XCTestCase {}
