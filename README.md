@@ -16,6 +16,11 @@ Make UIKit project enable preview feature of SwiftUI
 File > Add Packages > https://github.com/donggyushin/DGPreview
 ```
 
+### CocoaPod
+```
+pod 'DGPreview', :git => 'https://github.com/donggyushin/DGPreview'
+```
+
 ## Usage
 
 ### UIView
