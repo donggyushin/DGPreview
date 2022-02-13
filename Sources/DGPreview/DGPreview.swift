@@ -1,9 +1,9 @@
 import SwiftUI
 
-public struct UIViewPreview<View: UIView>: UIViewRepresentable {
+public struct DGPreview<View: UIView>: UIViewRepresentable {
     let view: View
     
-    init(_ builder: @escaping () -> View) {
+    public init(_ builder: @escaping () -> View) {
         view = builder()
     }
     
@@ -57,7 +57,7 @@ public extension UIViewController {
         }
     }
 
-    func showPreview(_ deviceType: DeviceType = .iPhone12Pro) -> some View {
+    func showDGPreview(_ deviceType: DeviceType = .iPhone12Pro) -> some View {
         Preview(viewController: self).previewDevice(PreviewDevice(rawValue: deviceType.name()))
     }
 }
